@@ -1,0 +1,100 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"11 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\chaves.c
+[v _initCHS initCHS `(v  1 e 1 0 ]
+"17
+[v _lerCH1 lerCH1 `(uc  1 e 1 0 ]
+"21
+[v _lerCH2 lerCH2 `(uc  1 e 1 0 ]
+"11 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\leds.c
+[v _initLEDS initLEDS `(v  1 e 1 0 ]
+"19
+[v _ligarLED1 ligarLED1 `(v  1 e 1 0 ]
+"24
+[v _ligarLED2 ligarLED2 `(v  1 e 1 0 ]
+"29
+[v _desligarLED1 desligarLED1 `(v  1 e 1 0 ]
+"34
+[v _desligarLED2 desligarLED2 `(v  1 e 1 0 ]
+"14 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S86 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[u S95 . 1 `S86 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES95  1 e 1 @8 ]
+[s S65 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S74 . 1 `S65 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES74  1 e 1 @136 ]
+"14 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+} 0
+"24 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\leds.c
+[v _ligarLED2 ligarLED2 `(v  1 e 1 0 ]
+{
+"27
+} 0
+"19
+[v _ligarLED1 ligarLED1 `(v  1 e 1 0 ]
+{
+"22
+} 0
+"21 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\chaves.c
+[v _lerCH2 lerCH2 `(uc  1 e 1 0 ]
+{
+"24
+} 0
+"17
+[v _lerCH1 lerCH1 `(uc  1 e 1 0 ]
+{
+"20
+} 0
+"11 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\leds.c
+[v _initLEDS initLEDS `(v  1 e 1 0 ]
+{
+"17
+} 0
+"11 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\chaves.c
+[v _initCHS initCHS `(v  1 e 1 0 ]
+{
+"15
+} 0
+"34 C:\Users\19180037\MPLABXProjects\Modulariza-o\Modularização.X\leds.c
+[v _desligarLED2 desligarLED2 `(v  1 e 1 0 ]
+{
+"37
+} 0
+"29
+[v _desligarLED1 desligarLED1 `(v  1 e 1 0 ]
+{
+"32
+} 0
